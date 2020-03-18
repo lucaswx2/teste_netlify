@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   const [empresa, setEmpresa] = useState("Segredo");
   return (
-    <>
+    <div class="bg-testamos">
       <h1>Olá, esta aplicação foi subida no netlify - {empresa}</h1>
       <button
         type="button"
@@ -13,7 +12,7 @@ function App() {
       >
         Clique aqui para ver a empresa
       </button>
-    </>
+    </div>
   );
 }
 
